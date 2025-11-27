@@ -1,18 +1,7 @@
 
 "use strict";
 
-
-/* 
-NEU für das PROJEKT
-https://join-230-default-rtdb.europe-west1.firebasedatabase.app/
-
-*/
-
-
 const BASE_URL = "https://join-230-default-rtdb.europe-west1.firebasedatabase.app/";
-
-
-
 
 let contacts = [
 	{
