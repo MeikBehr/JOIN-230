@@ -11,7 +11,7 @@
     position: absolute;
     padding: 4px 4px 0px 4px;
     border-radius: 100px;
-    top: 224px;
+    top: 160px;
     right: 80px;
 }
 
@@ -82,12 +82,17 @@ h3 {
         padding: 128px 40px 80px 40px;
     }
     .back-arrow {
-        top: 128px;
-        right: 40px;
+        top: 106px;
+        left: 38px;
     }
     h1 {
         font-size: 47px;
         margin-bottom: 32px;
+    }
+}
+@media (max-width: 480px) {
+    .text-content {
+        min-width: 140%;
     }
 }
 @media (max-width: 425px) {
@@ -95,7 +100,7 @@ h3 {
         padding: 128px 16px 80px 24px;
     }
     .back-arrow {
-        top: 128px;
-        right: 16px;
+        top: 106px;
+        left: 20px;
     }
 }
